@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Completeapi.CsharpModel.ORM": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\Users\\gabri\\OneDrive\\Documentos\\Desafios\\at-git-hub\\ambev\\Ambev\\template\\backend\\src\\Completeapi.CsharpModel.WebApi"
+    }
+  }
+}

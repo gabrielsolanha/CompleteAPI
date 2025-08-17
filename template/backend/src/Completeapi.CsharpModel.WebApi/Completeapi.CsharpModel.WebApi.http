@@ -1,0 +1,6 @@
+@Completeapi.CsharpModel.WebApi_HostAddress = http://localhost:5119
+
+GET {{Completeapi.CsharpModel.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

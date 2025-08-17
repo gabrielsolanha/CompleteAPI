@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+	
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+	
+	<ItemGroup>
+	  <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.8" />
+	</ItemGroup>
+	
+	<ItemGroup>
+		<ProjectReference Include="..\Completeapi.CsharpModel.Domain\Completeapi.CsharpModel.Domain.csproj" />
+		<ProjectReference Include="..\Completeapi.CsharpModel.Application\Completeapi.CsharpModel.Application.csproj" />
+		<ProjectReference Include="..\Completeapi.CsharpModel.ORM\Completeapi.CsharpModel.ORM.csproj" />
+		<ProjectReference Include="..\Completeapi.CsharpModel.Common\Completeapi.CsharpModel.Common.csproj" />
+	</ItemGroup>
+
+</Project>

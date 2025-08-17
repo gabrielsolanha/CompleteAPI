@@ -63,3 +63,11 @@ Se preferir rodar **fora do Docker**, siga os passos abaixo:
 *   Quando rodar via **pipeline/Docker**, não é necessário rodar as migrações manualmente.
 *   Quando rodar **localmente**, é necessário rodar `dotnet ef database update` antes de executar a API.
 *   O arquivo `appsettings.Development.json` deve conter as credenciais corretas do PostgreSQL em execução.
+
+Usuario adiministrador pré para testes inserido:
+
+{  
+  "username": "gs7",
+  "password": "Gs7@12345678",
+  "email": "teste@mail.com"
+}

@@ -44,7 +44,6 @@ Se preferir rodar **fora do Docker**, siga os passos abaixo:
     
         dotnet run
     
-    A API ficará disponível em `http://localhost:8080`.
 
 * * *
 
@@ -67,9 +66,9 @@ Se preferir rodar **fora do Docker**, siga os passos abaixo:
 Usuario adiministrador pré para testes inserido:
 ```
 
-{  
-  "username": "gs7",
-  "password": "Gs7@12345678",
-  "email": "teste@mail.com"
-}
+                {  
+                "username": "gs7",
+                "password": "Gs7@12345678",
+                "email": "teste@mail.com"
+                }
 ```

@@ -26,4 +26,4 @@ rm -rf bin obj
 
 echo ""
 echo "Coverage report generated at TestResults/CoverageReport/index.html"
-pause
+#pause

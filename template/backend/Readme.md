@@ -65,9 +65,11 @@ Se preferir rodar **fora do Docker**, siga os passos abaixo:
 *   O arquivo `appsettings.Development.json` deve conter as credenciais corretas do PostgreSQL em execução.
 
 Usuario adiministrador pré para testes inserido:
+```
 
 {  
   "username": "gs7",
   "password": "Gs7@12345678",
   "email": "teste@mail.com"
 }
+```
